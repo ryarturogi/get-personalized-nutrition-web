@@ -1,5 +1,3 @@
-# [personalized-nutrition-api.com](https://www.personalized-nutrition-api.com/)
-
 This project generates a personalized nutrition for you using AI.
 
 ## How it works
