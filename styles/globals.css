@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .result h1,
+  .result h2,
+  .result h3,
+  .result h4,
+  .result h5,
+  .result h6 {
+    @apply text-gray-900 font-bold;
+  }
+  .result h1 {
+    @apply text-2xl mb-2;
+  }
+  .result h2 {
+    @apply text-xl mb-2;
+  }
+  .result h3 {
+    @apply text-lg mb-2;
+  }
+  .result h4 {
+    @apply text-base mb-2;
+  }
+  .result h5 {
+    @apply text-sm mb-2;
+  }
+  .result h6 {
+    @apply text-xs mb-2;
+  }
+  .result ol,
+  .result ul {
+    @apply list-disc  text-gray-700 ml-5 text-sm leading-snug mb-5 font-normal;
+  }
+  .result p {
+    @apply text-gray-700;
+  }
+}
