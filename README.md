@@ -13,3 +13,6 @@ Then, run the application in the command line and it will be available at `http:
 ```bash
 npm run dev
 ```
+## License
+
+This library is released under the MIT License. See the LICENSE file for more details.
