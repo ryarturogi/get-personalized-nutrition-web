@@ -70,7 +70,6 @@ export default function Dropdown({
         requestAnimationFrame(() => {
           selectedItemRef.current?.scrollIntoView({
             block: "center",
-            behavior: "instant" as "auto" | "smooth" | "instant",
             inline: "nearest",
           });
         });
