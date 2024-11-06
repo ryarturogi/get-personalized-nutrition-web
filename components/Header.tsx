@@ -13,7 +13,7 @@ export default function Header() {
           height={32}
         />
         <h1 className='ml-2 text-2xl font-bold tracking-tight sm:text-4xl'>
-          PersonalizedNutritionPlan.com
+          NutritionGPT
         </h1>
       </Link>
     </header>
