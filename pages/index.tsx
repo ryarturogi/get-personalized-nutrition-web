@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Key, useMemo, useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
-import Dropdown from "@/components/Dropdown";
+import DropDown from "@/components/DropDown";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import LoadingDots from "@/components/LoadingDots";
@@ -643,7 +643,7 @@ const Home: NextPage = () => {
                         >
                           {field.label}
                         </label>
-                        <Dropdown
+                        <DropDown
                           options={(field as FieldSelectType).options}
                           selected={field.name ? (plan as any)[field.name] : ""}
                           setSelected={(value: string) =>
@@ -690,7 +690,7 @@ const Home: NextPage = () => {
               <p className="font-medium text-left">Select a language.</p>
             </div>
             <div className="block mb-5">
-              <Dropdown
+              <DropDown
                 options={languages}
                 selected={selectedLanguage}
                 setSelected={setSelectedLanguage}
@@ -705,7 +705,7 @@ const Home: NextPage = () => {
               <p className="font-medium text-left">Select your vibe.</p>
             </div>
             <div className="block">
-              <Dropdown
+              <DropDown
                 options={vibes}
                 selected={selectedVibe}
                 setSelected={setSelectedVibe}

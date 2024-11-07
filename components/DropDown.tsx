@@ -28,7 +28,7 @@ interface DropdownProps {
   options: OptionType[];
 }
 
-export default function Dropdown({
+export default function DropDown({
   options,
   selected,
   setSelected,
