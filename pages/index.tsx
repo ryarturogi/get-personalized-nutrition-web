@@ -3,13 +3,13 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Key, useMemo, useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
-import Dropdown from "../components/Dropdown";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import LoadingDots from "../components/LoadingDots";
-import ResizablePanel from "../components/ResizablePanel";
-import Countries from "../utils/countries";
-import { InitialDataType } from "../types";
+import Dropdown from "@/components/Dropdown";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import LoadingDots from "@/components/LoadingDots";
+import ResizablePanel from "@/components/ResizablePanel";
+import Countries from "@/utils/countries";
+import { InitialDataType } from "@/types";
 
 /**
  * Initial user data for creating a nutrition plan.
