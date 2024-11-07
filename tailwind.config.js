@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  future: {
+    darkMode: ["class"],
+    future: {
     hoverOnlyWhenSupported: true,
   },
   content: [
@@ -9,7 +10,14 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+  	extend: {
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		colors: {}
+  	}
   },
-  plugins: [require("@tailwindcss/forms"), require("@headlessui/tailwindcss")],
+  plugins: [require("@tailwindcss/forms"), require("@headlessui/tailwindcss"), require("tailwindcss-animate")],
 };
