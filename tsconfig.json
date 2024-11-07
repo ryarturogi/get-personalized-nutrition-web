@@ -17,11 +17,11 @@
     "baseUrl": ".", // Base URL at root
     "paths": {
       "@/*": ["./*"],
-      "components/*": ["components/*"],
-      "pages/*": ["pages/*"],
-      "styles/*": ["styles/*"],
-      "utils/*": ["utils/*"]
-    },
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/styles/*": ["styles/*"],
+      "@/utils/*": ["utils/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
